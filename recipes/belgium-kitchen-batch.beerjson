@@ -1,0 +1,219 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 6
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 8.5
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 36
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 21
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.006
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 82
+              },
+              "form": "dry",
+              "name": "Safebrew Abbey Ale",
+              "producer": "Fermentis",
+              "product_id": "BE-256",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1.2
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Malt Pilsen 2RP",
+              "supplier": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.8
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 49
+              },
+              "name": "Malt Cara Ruby",
+              "supplier": "Malterie du Château",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.12
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 100
+              },
+              "name": "Sucre de canne Brun",
+              "supplier": "",
+              "type": "sugar",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 100
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 2.7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.061
+              },
+              "form": "pellet",
+              "name": "Savinjski Golding",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 5
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 68
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Belgium Kitchen batch",
+        "notes": "Premier brassin a la montagne (1200m d'altitude) donc j'ai un peu galéré avec les températures, pas moyen d'atteindre les 100° donc l'ébullition s'est faite à 96° mais du coup j'ai trop attendu avant de lancer le timer et j'ai évaporé plus que prévu.\r\nLa bière doit sûrement avoir pris 1% d'alcool supplémentaire. J'ai pas les outils ici pour les mesures.\r\n\r\nFermentation super flash avec cette Belgian yeast, mise en bouteille après 5j. On part pour une vingtaine de jours en bouteille a ~20°c\r\nPuis 7j au frigo (début le 20/07/22) pour une première dégustation en famille autour de fin juillet",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.074
+        },
+        "style": {
+          "category": "Belgian Ale",
+          "category_number": "24",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 27
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 15
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.014
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 30
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 20
+            }
+          },
+          "name": "Belgian Pale Ale",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.054
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.048
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "B",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
