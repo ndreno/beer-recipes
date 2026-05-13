@@ -1,0 +1,312 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 15
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 20.2
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 87
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 48
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.011
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 78.3
+              },
+              "form": "dry",
+              "name": "Verdant IPA",
+              "producer": "Lallemand (LalBrew)",
+              "product_id": "-",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 3
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 5
+              },
+              "name": "Pale Malt",
+              "supplier": "Malteurop NZ",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 82.5
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 211
+              },
+              "name": "Crystal Malt - Dark",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 78
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.15
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1100
+              },
+              "name": "Malt Carafa Special II",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 70
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1015
+              },
+              "name": "Chocolate Malt - Light",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Wai-iti",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Riwaka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Willamette, New Zealand",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Nelson Sauvin",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.1
+              },
+              "name": "Bourbon Oak barrel chips",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10080
+                },
+                "use": "add_to_fermentation"
+              },
+              "type": "spice"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 10.6
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Bourbon Black IPA",
+        "notes": "",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.061
+        },
+        "style": {
+          "category": "Dark British Beer",
+          "category_number": "16",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 78
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 59
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.018
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "name": "Tropical Stout",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.075
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.056
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "C",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
