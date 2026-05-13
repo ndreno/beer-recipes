@@ -1,0 +1,346 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 15
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 18.6
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 86
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 65
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 34
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.011
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "Safale American",
+              "producer": "Fermentis",
+              "product_id": "US-05",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 3
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 2
+              },
+              "name": "Malt Pilsen 2RP",
+              "supplier": "Malterie du Château",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 81
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1
+              },
+              "name": "Flocons d'Avoine",
+              "supplier": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 2
+              },
+              "name": "Malt Avoine (Oat)  Bio",
+              "supplier": "Malterie du Château",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 59.5
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.15
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 70
+              },
+              "name": "Sirop d'érable",
+              "supplier": "",
+              "type": "sugar",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 65.2
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.15
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 900
+              },
+              "name": "Malt Carafa I",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 70
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1500
+              },
+              "name": "Malt Carafa III",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 70
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 400
+              },
+              "name": "Malt Caraaroma",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 73.6
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1450
+              },
+              "name": "Orge torréfié (Roasted Barley)",
+              "supplier": "Crisp",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 76
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.025
+              },
+              "form": "pellet",
+              "name": "Hallertau Magnum",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.3
+              },
+              "name": "Poudre de noix de coco torréfiées",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 8640
+                },
+                "use": "add_to_fermentation"
+              },
+              "type": "other"
+            },
+            {
+              "amount": {
+                "unit": "l",
+                "value": 0.1
+              },
+              "name": "Sirop d'érable",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 8640
+                },
+                "use": "add_to_fermentation"
+              },
+              "type": "other"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 11.1
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Coconut Stout",
+        "notes": "Inspirée de la superbe coconut stout d’Adrien",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.058
+        },
+        "style": {
+          "category": "Dark British Beer",
+          "category_number": "16",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 78
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 43
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.018
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 40
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 25
+            }
+          },
+          "name": "Oatmeal Stout",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.065
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.045
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "B",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
