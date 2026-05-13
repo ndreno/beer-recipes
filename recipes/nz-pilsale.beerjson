@@ -1,0 +1,219 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 28
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 37.1
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 10
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.01
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 41
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.011
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "Safale American",
+              "producer": "DCL/Fermentis",
+              "product_id": "US-05",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 5
+              },
+              "name": "Malt Pilsen",
+              "supplier": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 81
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 8
+              },
+              "name": "Malt Vienna",
+              "supplier": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.05
+              },
+              "form": "pellet",
+              "name": "Taiheke",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Motueka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 16.3
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 75
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "NZ Pilsale",
+        "notes": "Le but recherché ici est de brasser ma première bière de l’hémisphère sud avec les houblons locaux. L’été arrivant, normal on est en décembre une Ale est de rigueur, mais on souhaite rester sur une pils façon estivale soit légère, fruitée et parfumée. A suivre....",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.051
+        },
+        "style": {
+          "category": "Pale Bitter European Beer",
+          "category_number": "5",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 9
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 3
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.013
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.008
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 40
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 22
+            }
+          },
+          "name": "German Pils",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.05
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.044
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "D",
+          "type": "lager"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
