@@ -1,0 +1,336 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 28
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 37.1
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 5
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.006
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 24
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.023
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 83
+              },
+              "form": "dry",
+              "name": "Saflager Lager",
+              "producer": "DCL/Fermentis",
+              "product_id": "W-34/70",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 4.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Malt Pilsner",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 82.2
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1
+              },
+              "name": "Jasmine Rice",
+              "supplier": "Asian supermarket",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 70
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.2
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Gladiator Malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.2
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Sour Grapes",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 65.2
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.05
+              },
+              "form": "pellet",
+              "name": "Wai-iti",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Motueka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Wai-iti",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Motueka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.005
+              },
+              "name": "Irish Moss (Lichen carraghen)",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "type": "fining"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 21.1
+              },
+              "name": "Protéinique",
+              "step_temperature": {
+                "unit": "C",
+                "value": 50
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 30
+              },
+              "type": "infusion"
+            },
+            {
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "temperature"
+            },
+            {
+              "name": "Désactivation des enzymes",
+              "step_temperature": {
+                "unit": "C",
+                "value": 78
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              },
+              "type": "temperature"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Panhead Sucky MonMon Clone - Japanese Lager",
+        "notes": "Pas un grand fan de Lager en general, on a goute celle ci a la Tavern de Mangawhai Heads de chez Panhead Brewery, sacree surprise!\r\nDu coup tentative de Cloning en recuperant des info a droite a gauche.\r\n\r\nBrassee avec le poto Adrien le 10/07/2021\r\n\r\nPremiere fermentation entre le 11/07/2021 et le 13/07/2021\r\nDeuxieme entre le 14/07/2021 et le 11/08/2021\r\nCold crash entre le 11/08/2021 et le 15/08/2021\r\nMise en bouteille le 15/08 avec 7.5g raw sugar/litre pour un premier test en dégustation autour du 5/09",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.049
+        },
+        "style": {
+          "category": "Specialty Beer",
+          "category_number": "34",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 98
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 3
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.016
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.006
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 5
+            }
+          },
+          "name": "Clone Beer",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.09
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.02
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "A",
+          "type": "mixed"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
