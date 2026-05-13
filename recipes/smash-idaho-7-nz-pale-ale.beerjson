@@ -1,0 +1,219 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 35
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 46.2
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 9
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 36
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 0.04
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 72.5
+              },
+              "form": "liquid",
+              "name": "Coastal Haze Ale",
+              "producer": "White Labs",
+              "product_id": "WLP067",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 8
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 5
+              },
+              "name": "American Ale Malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 79
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.04
+              },
+              "form": "pellet",
+              "name": "Idaho #7",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.05
+              },
+              "form": "pellet",
+              "name": "Idaho #7",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.11
+              },
+              "form": "pellet",
+              "name": "Idaho #7",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 7200
+                },
+                "use": "add_to_fermentation"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 20
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "SMaSH Idaho 7 NZ Pale Ale",
+        "notes": "Recipe un peu random avec le poto Ad car les ingredients qu on voulait n etaient pas dispo",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.049
+        },
+        "style": {
+          "category": "Pale American Ale",
+          "category_number": "18",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 19
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 9
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.015
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "name": "American Pale Ale",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.06
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.045
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "B",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
