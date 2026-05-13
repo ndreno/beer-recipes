@@ -1,0 +1,347 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 22
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 29.3
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 6
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.009
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 17
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "Belgian Wit",
+              "producer": "Mangrove Jack's",
+              "product_id": "M21",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 2.3
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 2
+              },
+              "name": "Pilsner Malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 78
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1.7
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 4
+              },
+              "name": "Flaked Wheat",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.7
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 2
+              },
+              "name": "Rolled Oats",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 4
+              },
+              "name": "Sour Grapes Malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 65
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Hort9909",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Hort9909",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 2880
+                },
+                "use": "add_to_fermentation"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Nelson Sauvin",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 2880
+                },
+                "use": "add_to_fermentation"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "name": "Crushed coriander seeds",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.04
+              },
+              "name": "Dried lemon peel from the garden",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.008
+              },
+              "name": "Kaffir leaves from the garden",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 2880
+                },
+                "use": "add_to_fermentation"
+              },
+              "type": "spice"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 15.6
+              },
+              "name": "Protéinique",
+              "step_temperature": {
+                "unit": "C",
+                "value": 50
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 20
+              },
+              "type": "infusion"
+            },
+            {
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 64
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 75
+              },
+              "type": "temperature"
+            },
+            {
+              "name": "Désactivation des enzymes",
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              },
+              "type": "temperature"
+            }
+          ],
+          "name": ""
+        },
+        "name": "NZ Kaffir Witbier",
+        "notes": "finalement une densite initial reelee de 1.044 et finale reelle de 1.008 apres 13 jours de fermentation a 22.5, ce qui devrait nous faire un ABV de 4.7% environ (Hoegaarden est a 4.9% donc vraiment pas loin du profil)\r\nAvant mise en bouteille : Belle couleur, beaux aromes (banane bien presente), legere amertume, notes de kaffir bien presentent (j'espere pas trop).\r\n\r\nOn attend quelques semaines et on deguste!",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.049
+        },
+        "style": {
+          "category": "Belgian Ale",
+          "category_number": "24",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 7
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 3
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.012
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.008
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 20
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 8
+            }
+          },
+          "name": "Witbier",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.052
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.044
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "A",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
