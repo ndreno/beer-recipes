@@ -1,0 +1,331 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 20
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 26.7
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 7
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.01
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 39
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 0.04
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 77.5
+              },
+              "form": "liquid",
+              "name": "Czech Budejovice Lager",
+              "producer": "White Labs",
+              "product_id": "WLP802",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 3.75
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Malt Pilsner",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 82.2
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.3
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 15
+              },
+              "name": "Malt Munich",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.15
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 4
+              },
+              "name": "Malt Acide (Acidulated)",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 65.2
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.15
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 7
+              },
+              "name": "Gladiator Malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.008
+              },
+              "form": "pellet",
+              "name": "Nelson Sauvin",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.016
+              },
+              "form": "pellet",
+              "name": "Riwaka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Nelson Sauvin",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Riwaka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Motueka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.005
+              },
+              "name": "Irish Moss (Lichen carraghen)",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "type": "fining"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 10.9
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Sawmill Pilsner Clone (NZ)",
+        "notes": "",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.048
+        },
+        "style": {
+          "category": "Specialty Beer",
+          "category_number": "34",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 98
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 3
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.016
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.006
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 5
+            }
+          },
+          "name": "Clone Beer",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.09
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.02
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "A",
+          "type": "mixed"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
