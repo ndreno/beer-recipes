@@ -1,0 +1,219 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 15
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 14
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 25
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 70
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 38
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.011
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 73
+              },
+              "form": "dry",
+              "name": "SafBrew Ale",
+              "producer": "Fermentis",
+              "product_id": "S-33",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 3.8
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 8
+              },
+              "name": "Malt Pale Ale",
+              "supplier": "Malterie du Château",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 81
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 49
+              },
+              "name": "Malt Cara Ruby",
+              "supplier": "Malterie du Château",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Brewer's Gold, UK",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.05
+              },
+              "form": "pellet",
+              "name": "Brewer's Gold, UK",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 64
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 75
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "English Ruby Ale",
+        "notes": "",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.067
+        },
+        "style": {
+          "category": "Strong British Ale",
+          "category_number": "17",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 43
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 15
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.022
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.015
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 60
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "name": "British Strong Ale",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.08
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.055
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "A",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
