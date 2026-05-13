@@ -1,0 +1,383 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 30
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 38.2
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 48
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 75
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.013
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "New World Strong Ale",
+              "producer": "Mangrove Jack's",
+              "product_id": "M42",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 8
+              },
+              "name": "Malt Pale Ale",
+              "producer": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 78
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 2
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 49
+              },
+              "name": "Malt Cara Ruby",
+              "producer": "Malterie du Château",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 7
+              },
+              "name": "Malt de Seigle",
+              "producer": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 63
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 50
+              },
+              "name": "Malt Carared",
+              "producer": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 75
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.15
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1500
+              },
+              "name": "Malt Carafa III",
+              "producer": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 70
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.005
+              },
+              "form": "pellet",
+              "name": "Magnum",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Ekuanot",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Magnum",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Ekuanot",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Magnum",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "name": "Écorce d'orange douce",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.007
+              },
+              "name": "Cannelle en bâton",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.005
+              },
+              "name": "Racine de gingembre",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.006
+              },
+              "name": "Graine de coriandre",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.004
+              },
+              "name": "Muscade",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.004
+              },
+              "name": "Anis étoilé",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "type": "spice"
+            }
+          ]
+        },
+        "mash": {
+          "grain_temperature": {
+            "unit": "C",
+            "value": 20
+          },
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 28.9
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Christmas brew",
+        "notes": "Copiée et adaptée depuis le compte de littlebock ;)\r\n\r\nA tester pour l'hiver",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.06
+        },
+        "style": {
+          "category": "Spiced Beer",
+          "category_number": 30,
+          "name": "Winter Seasonal Beer",
+          "style_guide": "BJCP 2015",
+          "style_letter": "C",
+          "type": "beer"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
