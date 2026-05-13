@@ -1,0 +1,257 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 23
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 28.1
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 11
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 65
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.011
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 35
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.011
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "Safale American",
+              "producer": "Fermentis",
+              "product_id": "US-05",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 6
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 6
+              },
+              "name": "Malt Pale Ale",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 82.2
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.016
+              },
+              "form": "pellet",
+              "name": "Motueka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Riwaka",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Wai-iti",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.065
+              },
+              "form": "pellet",
+              "name": "Willamette, New Zealand",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.04
+              },
+              "form": "pellet",
+              "name": "Kohatu",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Ben's Pale Ale",
+        "notes": "As we are leaving NZ it is time to give away some gears and train a friend to continue this amazing work!\r\nIt's gonna be my first Brew in Bag.\r\n\r\nThe hops selection can look strange but it is because I'm cleaning the fridge ;)\r\n\r\nhttps://blog.littlebock.fr/brasser-sac-empatage-biab-brew-in-a-bag/",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.052
+        },
+        "style": {
+          "category": "Pale American Ale",
+          "category_number": "18",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 19
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 9
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.015
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "name": "American Pale Ale",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.06
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.045
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "B",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
