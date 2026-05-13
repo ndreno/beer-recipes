@@ -1,0 +1,409 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 38
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 50.1
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 7
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 25
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.021
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "Hophead",
+              "producer": "Mangrove Jack's",
+              "product_id": "M66",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 7
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "German Pilsner Malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 82.2
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 2
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 1
+              },
+              "name": "Rolled Oats",
+              "supplier": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 1
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Flake Barley",
+              "supplier": "Australian",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 70
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.6
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 3
+              },
+              "name": "Flaked Wheat",
+              "supplier": "",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                }
+              }
+            },
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.4
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 4
+              },
+              "name": "Wheat malt",
+              "supplier": "Gladfield",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 84
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Kohatu",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 17.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Moutere",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.01
+              },
+              "form": "pellet",
+              "name": "Rakau (Alpharoma)",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 17.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Moutere",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.06
+              },
+              "form": "pellet",
+              "name": "Rakau (Alpharoma)",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.04
+              },
+              "form": "pellet",
+              "name": "Kohatu",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 17.6
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.06
+              },
+              "form": "pellet",
+              "name": "Moutere",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 8640
+                },
+                "use": "add_to_fermentation"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.08
+              },
+              "form": "pellet",
+              "name": "Kohatu",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 8640
+                },
+                "use": "add_to_fermentation"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.13
+              },
+              "form": "pellet",
+              "name": "Rakau (Alpharoma)",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 8640
+                },
+                "use": "add_to_fermentation"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 27.5
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 71
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Tropical Hazy NZ IPA",
+        "notes": "Inspirations: \r\nhttps://emersons.co.nz/orange-roughy\r\nhttps://www.goodgeorge.co.nz/passionfruit-hazy-ipa/\r\nhttps://8wired.co.nz/products/tropidelic\r\n\r\nLe but est de faire une hazy bien orientee sur le fruit sans vraiment d amertume persistente (ajouts de hop tardifs, et hop stand), et gros dry hoping bien sale :)\r\n\r\n--------------\r\n\r\nBrassee le 05/12/21.\r\nPas assez de place dans la cuve ebu pour utiliser toute l'eau du sparging (maybe 5 to 10L left in sparging kettle)\r\n(on testait les limites du set up :))\r\n\r\nOG visse etait 1.063 et on a 1.052 au final, pas fou...\r\nCa sent deja bon les tropiques par contre :D\r\n\r\nPitchee le 6/12/21\r\n\r\nOn part sur 3 ou 4 jours de ferm a ~19/20 celcius avant dry hoping\r\n\r\ndry hoping de 6 jours effectue, mise en keg le 15/12/2021 avec petit resucrage\r\n(20 sugar drops)\r\n\r\ngravite finale 5.9 au brix avec la correction on est a 1.010, mieux que espere.\r\nLa levure a bien bosse\r\n\r\nca nous fait un ABV autour de 5.5%",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.063
+        },
+        "style": {
+          "category": "Pale Commonwealth Beer",
+          "category_number": "12",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 27
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 11
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.018
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 60
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 40
+            }
+          },
+          "name": "English IPA",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.075
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.05
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "C",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
