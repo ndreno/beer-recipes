@@ -1,0 +1,246 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 23
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 28
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 5
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.013
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 36
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.001
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 80
+              },
+              "form": "liquid",
+              "name": "California Ale",
+              "producer": "White Labs",
+              "product_id": "WLP001",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 6.5
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 2
+              },
+              "name": "Pale Ale Golden Promise",
+              "supplier": "Simpsons",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 79
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.015
+              },
+              "form": "pellet",
+              "name": "Mosaic",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.025
+              },
+              "form": "pellet",
+              "name": "Mosaic",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Mosaic",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.3
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Mosaic",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 8640
+                },
+                "use": "add_to_fermentation"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "name": "Temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 68
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "temperature"
+            },
+            {
+              "name": "Mash Out",
+              "step_temperature": {
+                "unit": "C",
+                "value": 75
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              },
+              "type": "temperature"
+            }
+          ],
+          "name": ""
+        },
+        "name": "Mosaic SMaSH",
+        "notes": "Smash du poto Julien P brassee a Sydney validee et aprouvee.\r\nNotes de fruits de la passion tres presentes a la degust",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.06
+        },
+        "style": {
+          "category": "Pale American Ale",
+          "category_number": "18",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 19
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 9
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.015
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "name": "American Pale Ale",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.06
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.045
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "B",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
