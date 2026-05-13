@@ -1,0 +1,231 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "author": "Unknown",
+        "batch_size": {
+          "unit": "l",
+          "value": 35
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 46.2
+          }
+        },
+        "color_estimate": {
+          "unit": "EBC",
+          "value": 9
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 73
+          }
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.011
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 34
+          }
+        },
+        "ingredients": {
+          "culture_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 0.011
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              },
+              "form": "dry",
+              "name": "American West Coast Ale",
+              "producer": "Lallemand/Danstar",
+              "product_id": "BRY-97",
+              "type": "ale"
+            }
+          ],
+          "fermentable_additions": [
+            {
+              "amount": {
+                "unit": "kg",
+                "value": 7.6
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 6
+              },
+              "name": "Malt Pale Ale",
+              "supplier": "Weyermann",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 82.2
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.05
+              },
+              "form": "pellet",
+              "name": "Nectaron",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.02
+              },
+              "form": "pellet",
+              "name": "Nectaron",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.5
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.03
+              },
+              "form": "pellet",
+              "name": "Nectaron",
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 7200
+                },
+                "use": "add_to_fermentation"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "amount": {
+                "unit": "l",
+                "value": 19
+              },
+              "name": "Saccharification",
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "type": "infusion"
+            },
+            {
+              "name": "Désactivation des enzymes",
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              },
+              "type": "temperature"
+            }
+          ],
+          "name": ""
+        },
+        "name": "SMaSH Nectaron",
+        "notes": "Gros testing du nouveau Houblon NZ super fashion avec le poto Adrien",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.049
+        },
+        "style": {
+          "category": "Pale American Ale",
+          "category_number": "18",
+          "color": {
+            "maximum": {
+              "unit": "SRM",
+              "value": 19
+            },
+            "minimum": {
+              "unit": "SRM",
+              "value": 9
+            }
+          },
+          "final_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.015
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.01
+            }
+          },
+          "international_bitterness_units": {
+            "maximum": {
+              "unit": "IBUs",
+              "value": 50
+            },
+            "minimum": {
+              "unit": "IBUs",
+              "value": 30
+            }
+          },
+          "name": "American Pale Ale",
+          "original_gravity": {
+            "maximum": {
+              "unit": "sg",
+              "value": 1.06
+            },
+            "minimum": {
+              "unit": "sg",
+              "value": 1.045
+            }
+          },
+          "style_guide": "BJCP 2015",
+          "style_letter": "B",
+          "type": "ale"
+        },
+        "type": "all grain"
+      }
+    ]
+  }
+}
