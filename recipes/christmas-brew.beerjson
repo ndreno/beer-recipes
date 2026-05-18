@@ -5,8 +5,8 @@
       {
         "author": "Unknown",
         "batch_size": {
-          "unit": "l",
-          "value": 30
+          "value": 50,
+          "unit": "l"
         },
         "boil": {
           "boil_time": {
@@ -24,8 +24,8 @@
         },
         "efficiency": {
           "brewhouse": {
-            "unit": "%",
-            "value": 75
+            "value": 75,
+            "unit": "%"
           }
         },
         "final_gravity": {
@@ -37,7 +37,7 @@
             {
               "amount": {
                 "unit": "kg",
-                "value": 0.02
+                "value": 0.03333333333333333
               },
               "attenuation": {
                 "unit": "%",
@@ -54,7 +54,7 @@
             {
               "amount": {
                 "unit": "kg",
-                "value": 5
+                "value": 8.333333333333334
               },
               "color": {
                 "unit": "EBC",
@@ -73,7 +73,7 @@
             {
               "amount": {
                 "unit": "kg",
-                "value": 2
+                "value": 3.3333333333333335
               },
               "color": {
                 "unit": "EBC",
@@ -92,7 +92,7 @@
             {
               "amount": {
                 "unit": "kg",
-                "value": 1
+                "value": 1.6666666666666667
               },
               "color": {
                 "unit": "EBC",
@@ -111,7 +111,7 @@
             {
               "amount": {
                 "unit": "kg",
-                "value": 1
+                "value": 1.6666666666666667
               },
               "color": {
                 "unit": "EBC",
@@ -130,7 +130,7 @@
             {
               "amount": {
                 "unit": "kg",
-                "value": 0.15
+                "value": 0.25
               },
               "color": {
                 "unit": "EBC",
@@ -155,7 +155,7 @@
               },
               "amount": {
                 "unit": "kg",
-                "value": 0.005
+                "value": 0.008333333333333333
               },
               "form": "pellet",
               "name": "Magnum",
@@ -174,7 +174,7 @@
               },
               "amount": {
                 "unit": "kg",
-                "value": 0.02
+                "value": 0.03333333333333333
               },
               "form": "pellet",
               "name": "Ekuanot",
@@ -193,7 +193,7 @@
               },
               "amount": {
                 "unit": "kg",
-                "value": 0.03
+                "value": 0.05
               },
               "form": "pellet",
               "name": "Magnum",
@@ -212,7 +212,7 @@
               },
               "amount": {
                 "unit": "kg",
-                "value": 0.03
+                "value": 0.05
               },
               "form": "pellet",
               "name": "Ekuanot",
@@ -231,7 +231,7 @@
               },
               "amount": {
                 "unit": "kg",
-                "value": 0.03
+                "value": 0.05
               },
               "form": "pellet",
               "name": "Magnum",
@@ -346,7 +346,7 @@
             {
               "amount": {
                 "unit": "l",
-                "value": 28.9
+                "value": 33.1325
               },
               "name": "Saccharification",
               "step_temperature": {
