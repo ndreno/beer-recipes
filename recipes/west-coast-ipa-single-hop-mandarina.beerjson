@@ -1,0 +1,278 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "name": "West Coast IPA SINGLE HOP MANDARINA",
+        "type": "all grain",
+        "author": "Nico",
+        "batch_size": {
+          "value": 55,
+          "unit": "l"
+        },
+        "efficiency": {
+          "brewhouse": {
+            "value": 75,
+            "unit": "%"
+          }
+        },
+        "style": {
+          "name": "West Coast IPA",
+          "category": "IPA",
+          "category_number": 21,
+          "style_letter": "A",
+          "style_guide": "BJCP 2021",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "value": 1.062,
+          "unit": "sg"
+        },
+        "final_gravity": {
+          "value": 1.01,
+          "unit": "sg"
+        },
+        "alcohol_by_volume": {
+          "value": 6.6,
+          "unit": "%"
+        },
+        "ibu_estimate": {
+          "method": "Tinseth",
+          "ibu": {
+            "value": 65,
+            "unit": "IBUs"
+          }
+        },
+        "color_estimate": {
+          "value": 14,
+          "unit": "EBC"
+        },
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Belgomalt Pale Ale",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "value": 80,
+                  "unit": "%"
+                }
+              },
+              "color": {
+                "value": 6,
+                "unit": "EBC"
+              },
+              "amount": {
+                "value": 12.600000000000001,
+                "unit": "kg"
+              }
+            },
+            {
+              "name": "Belgomalt Wheat Malt",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "value": 84,
+                  "unit": "%"
+                }
+              },
+              "color": {
+                "value": 5,
+                "unit": "EBC"
+              },
+              "amount": {
+                "value": 0.8,
+                "unit": "kg"
+              }
+            },
+            {
+              "name": "Light Crystal",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "value": 74,
+                  "unit": "%"
+                }
+              },
+              "color": {
+                "value": 120,
+                "unit": "EBC"
+              },
+              "amount": {
+                "value": 0.6,
+                "unit": "kg"
+              }
+            },
+            {
+              "name": "Flocons d'Avoine",
+              "type": "grain",
+              "yield": {
+                "fine_grind": {
+                  "value": 80,
+                  "unit": "%"
+                }
+              },
+              "color": {
+                "value": 4,
+                "unit": "EBC"
+              },
+              "amount": {
+                "value": 0.6,
+                "unit": "kg"
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Mandarina Bavaria",
+              "alpha_acid": {
+                "value": 8,
+                "unit": "%"
+              },
+              "form": "pellet",
+              "amount": {
+                "value": 0.12000000000000001,
+                "unit": "kg"
+              },
+              "timing": {
+                "use": "add_to_boil",
+                "time": {
+                  "value": 40,
+                  "unit": "min"
+                }
+              }
+            },
+            {
+              "name": "Mandarina Bavaria",
+              "alpha_acid": {
+                "value": 8,
+                "unit": "%"
+              },
+              "form": "pellet",
+              "amount": {
+                "value": 0.08,
+                "unit": "kg"
+              },
+              "timing": {
+                "use": "add_to_boil",
+                "time": {
+                  "value": 20,
+                  "unit": "min"
+                }
+              }
+            },
+            {
+              "name": "Mandarina Bavaria",
+              "alpha_acid": {
+                "value": 8,
+                "unit": "%"
+              },
+              "form": "pellet",
+              "amount": {
+                "value": 0.060000000000000005,
+                "unit": "kg"
+              },
+              "timing": {
+                "use": "add_to_boil",
+                "time": {
+                  "value": 10,
+                  "unit": "min"
+                }
+              }
+            },
+            {
+              "name": "Mandarina Bavaria",
+              "alpha_acid": {
+                "value": 8,
+                "unit": "%"
+              },
+              "form": "pellet",
+              "amount": {
+                "value": 0.12000000000000001,
+                "unit": "kg"
+              },
+              "timing": {
+                "use": "add_to_boil",
+                "time": {
+                  "value": 25,
+                  "unit": "min"
+                }
+              }
+            },
+            {
+              "name": "Mandarina Bavaria",
+              "alpha_acid": {
+                "value": 8,
+                "unit": "%"
+              },
+              "form": "pellet",
+              "amount": {
+                "value": 0.13,
+                "unit": "kg"
+              },
+              "timing": {
+                "use": "add_to_fermentation",
+                "time": {
+                  "value": 4320,
+                  "unit": "min"
+                }
+              },
+              "notes": "Dry hop en secondaire"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Pinnacle Heritage American Ale",
+              "type": "ale",
+              "form": "dry",
+              "amount": {
+                "value": 0.023,
+                "unit": "kg"
+              },
+              "attenuation": {
+                "value": 78,
+                "unit": "%"
+              }
+            }
+          ]
+        },
+        "mash": {
+          "name": "Mash",
+          "grain_temperature": {
+            "value": 20,
+            "unit": "C"
+          },
+          "notes": "Mash bas pour obtenir une bière sèche type West Coast IPA.",
+          "mash_steps": [
+            {
+              "name": "Saccharification",
+              "type": "infusion",
+              "step_temperature": {
+                "value": 64.5,
+                "unit": "C"
+              },
+              "step_time": {
+                "value": 75,
+                "unit": "min"
+              },
+              "infuse_temperature": {
+                "value": 72,
+                "unit": "C"
+              },
+              "amount": {
+                "value": 31.95733333333333,
+                "unit": "l"
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "value": 60,
+            "unit": "min"
+          }
+        }
+      }
+    ]
+  }
+}
