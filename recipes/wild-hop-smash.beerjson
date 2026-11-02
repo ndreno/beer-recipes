@@ -1,0 +1,153 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "recipes": [
+      {
+        "name": "Wild Hop SMaSH",
+        "type": "all grain",
+        "author": "Nicolas Dreno",
+        "created": "2026-11-02",
+        "batch_size": {
+          "unit": "l",
+          "value": 7
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 9.5
+          }
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 72
+          }
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.042
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.01
+        },
+        "ibu_estimate": {
+          "ibu": {
+            "unit": "IBUs",
+            "value": 15
+          }
+        },
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Malt Pale Ale",
+              "supplier": "Malterie du Château",
+              "type": "grain",
+              "amount": {
+                "unit": "kg",
+                "value": 1.3
+              },
+              "color": {
+                "unit": "EBC",
+                "value": 8
+              },
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 81
+                }
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Houblon sauvage",
+              "form": "leaf (wet)",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.035
+              },
+              "timing": {
+                "use": "add_to_boil",
+                "time": {
+                  "unit": "min",
+                  "value": 60
+                }
+              }
+            },
+            {
+              "name": "Houblon sauvage",
+              "form": "leaf (wet)",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.015
+              },
+              "timing": {
+                "use": "add_to_boil",
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                }
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale American",
+              "producer": "DCL/Fermentis",
+              "product_id": "US-05",
+              "type": "ale",
+              "form": "dry",
+              "amount": {
+                "unit": "kg",
+                "value": 0.0055
+              },
+              "attenuation": {
+                "unit": "%",
+                "value": 76.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "name": "Single infusion",
+          "grain_temperature": {
+            "unit": "C",
+            "value": 18
+          },
+          "mash_steps": [
+            {
+              "name": "Saccharification",
+              "type": "infusion",
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "amount": {
+                "unit": "l",
+                "value": 3.3
+              }
+            }
+          ]
+        },
+        "notes": "Blonde SMaSH de 7 L avec 50 g de houblon sauvage frais cueilli le 02/11/2026 : 35 g à 60 min, 15 g à l'arrêt du feu, laissés dans la casserole pendant le no-chill (couvercle fermé). Empâtage à 67 °C pour un peu de corps face à une amertume douce. Fermenteur de 15 L : ne pas ouvrir, embouteiller dès que la densité est stable.\n\nHoublon frais : forme « fleur fraîche » (Werb compte un cinquième du poids frais) et alpha de 4 %, estimation sur sec pour un houblon sauvage (plage 2-6 %).\n\nIBU 15 avec le profil d'équipement en no-chill, ~60 min pour passer sous 80 °C. Fourchette selon l'alpha réel : 7 à 22 IBU. Selon le refroidissement : 14 (45 min) à 16 (90 min).\n\nVariante plus amère : ajouter 3 g de Mandarina (8 %) à 60 min pour ~25 IBU."
+      }
+    ]
+  }
+}
